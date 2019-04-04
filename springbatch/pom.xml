@@ -18,6 +18,19 @@
 
     <dependencies>
 
+        <!-- json -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-lgpl</artifactId>
+            <version>1.8.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-lgpl</artifactId>
+            <version>1.8.1</version>
+        </dependency>
+
         <!-- Spring Core -->
         <dependency>
             <groupId>org.springframework</groupId>

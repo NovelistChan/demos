@@ -66,4 +66,7 @@ public class Report {
         return "Report [id=" + id + ", sales=" + sales + ", qty=" + qty + ", staffName=" + staffName + "]";
     }
 
+    public String toMyString(){
+        return "ID: " + id + "\tSALES: " + sales + "\tQUANTITY: " + qty + "\tNAME: " + staffName + "\tDATE: " + date;
+    }
 }
